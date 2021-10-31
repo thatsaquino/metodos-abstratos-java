@@ -45,7 +45,7 @@ public class Program {
 				list.add(new Rectangle(color, width, height));
 
 			} else {
-				System.out.print("Radius: ");
+				System.out.println("Radius: ");
 				double radius = sc.nextDouble();
 
 				list.add(new Circle(color, radius));
