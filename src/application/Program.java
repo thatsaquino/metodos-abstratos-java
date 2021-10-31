@@ -19,7 +19,7 @@ public class Program {
 
 		List<Shape> list = new ArrayList<>();
 		// instanciar uma lista para poder armazenar os dados dos elementos digitados
-		// pelo usuário
+		// pelo usuï¿½rio
 
 		System.out.print("Enter the numbers of shape: ");
 		int shapes = sc.nextInt();
@@ -39,7 +39,7 @@ public class Program {
 				System.out.print("Width: ");
 				double width = sc.nextDouble();
 
-				System.out.print("Height: ");
+				System.out.println("Height: ");
 				double height = sc.nextDouble();
 
 				list.add(new Rectangle(color, width, height));
